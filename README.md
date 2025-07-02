@@ -32,14 +32,14 @@ A fully functional 9-bit processor designed in Verilog, featuring a register fil
 ```
 9bit-cpu/
 ├── rtl/
-│   ├── procc.v              # CPU top module
-│   ├── regn.v               # Register bank
-│   ├── addsub.v             # ALU subunit
-│   ├── my_mem.v             # Simple memory module
-│   ├── counter.v            # Clock cycle counter
-│   ├── dec3to8.v            # Decoder (binary to one-hot)
-│   ├── muxsmthng2one.v      # Multi-input bus selector
-│   └── top_module.v         # Integration & test wiring
+│   ├── procc.v              
+│   ├── regn.v               
+│   ├── addsub.v              
+│   ├── my_mem.v             
+│   ├── counter.v            
+│   ├── dec3to8.v            
+│   ├── muxsmthng2one.v      
+│   └── top_module.v         
 ├── docs/
 │   ├── arch_diagram.png     # Architecture/block diagram + instruction table + waveforms 
 └── README.md
