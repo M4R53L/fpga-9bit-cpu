@@ -41,11 +41,7 @@ A fully functional 9-bit processor designed in Verilog, featuring a register fil
 │   ├── muxsmthng2one.v      # Multi-input bus selector
 │   └── top_module.v         # Integration & test wiring
 ├── docs/
-│   ├── arch_diagram.png     # Architecture/block diagram
-│   ├── instruction_table.png
-│   └── waveforms.png
-├── sim/
-│   └── processor_tb.v       # Testbench
+│   ├── arch_diagram.png     # Architecture/block diagram + instruction table + waveforms 
 └── README.md
 ```
 
