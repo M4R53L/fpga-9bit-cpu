@@ -1,7 +1,7 @@
 
 # 9-bit Custom Processor on FPGA
 
-A fully functional 9-bit processor designed in Verilog, featuring a register file, custom ALU, state machine control unit, and memory interface. Built and tested using Quartus Prime and ModelSim, this processor supports a minimal instruction set including arithmetic, move, immediate load, and a special multiply-by-3.5 operation.
+A fully functional 9-bit processor designed in Verilog, featuring a register file, custom ALU, state machine control unit, and memory interface. Built and tested using Quartus Prime, this processor supports a minimal instruction set including arithmetic, move, immediate load, and a special multiply-by-3.5 operation.
 
 ---
 
