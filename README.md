@@ -60,7 +60,6 @@ Watch the simulation + run-through of all instructions on hardware:
 - All instructions tested individually
 - Final integration test includes:
   - MVI → MV → ADD → MUL3.5 → SUB → MV to final reg
-- Validated with waveform inspection in ModelSim
 
 ---
 
@@ -71,10 +70,3 @@ Watch the simulation + run-through of all instructions on hardware:
 - One-hot decoder for register selection
 - Each instruction completes in 2–4 cycles
 
----
-
-## 🧠 Lessons Learned
-
-- Register aliasing handled with strict one-hot decoding
-- FSM design enables efficient instruction pipelining
-- Signal timing and waveform correctness critical in multi-stage ops
